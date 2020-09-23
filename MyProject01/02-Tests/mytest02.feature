@@ -1,3 +1,4 @@
+@TestToRun1
 Feature:  mytest02
 
     Scenario: Login scenario
@@ -5,16 +6,16 @@ Feature:  mytest02
         When the user selects the "param:endPointName1" entry on endpoint panel
         Then the "param:endPointName1" endpoint is selected
 
-    # Scenario: Open Company function
+     Scenario: Open Company function
 
-    #     #Open function by code
-    #     Given the user opens the "GESCPY" function
+         #Open function by code
+         Given the user opens the "GESCPY" function
 
-    #     #Check the function is opened
-    #     Then the "Companies" screen is displayed
+         #Check the function is opened
+         Then the "Companies" screen is displayed
 
-    #     #Close the function
-    #     Then the user clicks the Close page action icon on the header panel
+         #Close the function
+         Then the user clicks the Close page action icon on the header panel
 
 
     Scenario: Logout scenario

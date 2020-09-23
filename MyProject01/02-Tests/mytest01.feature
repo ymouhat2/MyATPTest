@@ -11,6 +11,12 @@ Feature:  mytest01
         #Open function by code
         Given the user opens the "GESGAC" function
 
+        Then the user clicks the "Management" tab selected by title
+        And the user selects the data table of section: "Variance accounts"
+        And the user selects first row of the selected data table
+        And the user selects cell with header: "Variance accounts" of selected row
+        And the selected cell is not empty
+
 
 
         #Close the function

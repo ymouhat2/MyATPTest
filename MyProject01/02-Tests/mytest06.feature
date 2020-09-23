@@ -1,3 +1,4 @@
+@TestToRun2
 Feature:  mytest06
 
     Scenario: Login scenario
@@ -10,10 +11,11 @@ Feature:  mytest06
 
         #Open function by code
         Given the user opens the "GESBIS" function
-
-
-
-        #Close the function
+		
+		And the user selects the text field with name: "Site"
+		And the value of the selected text field is "FR011"
+		
+		#Close the function
         Then the user clicks the Close page action icon on the header panel
 
 

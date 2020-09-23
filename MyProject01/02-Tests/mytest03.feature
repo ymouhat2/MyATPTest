@@ -1,3 +1,4 @@
+@TestToRun1
 Feature:  mytest03
 
     Scenario: Login scenario
